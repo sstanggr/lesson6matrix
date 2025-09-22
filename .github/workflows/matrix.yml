@@ -16,6 +16,6 @@ jobs:
         exclude:
           - runner: windows-latest
             python-version: 3.13
-    run-ons: ${{ matrix.runner }}
+    runs-on: ${{ matrix.runner }}
     steps: 
       - run: echo this job will run in python version ${{ matrix.python-version }}
