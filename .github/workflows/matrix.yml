@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         runner: [ubuntu-latest, windows-latest]
-        pyhton-version: [3.11, 3.12, 3.13]
+        python-version: [3.11, 3.12, 3.13]
         include: 
          - runner: macros-latest
            python-version: 3.12
